@@ -62,3 +62,11 @@ order(2000,() => {
             console.log(`ice cream is served`)
         })
     })
+
+    .catch(() => {
+        console.log(`customer left`)
+    })
+
+    .finally(() => {
+        console.log(`day ended, shop is closed`)
+    })
